@@ -1,0 +1,45 @@
+.ToogleTheme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: rgba(250, 250, 250, 0);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(250, 250, 250, 0.1);
+}
+
+button.dark {
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+button.light:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+button>* {
+  font-size: 35px;
+}
+
+div.hide {
+  display: none;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
